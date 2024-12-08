@@ -1,0 +1,140 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Add user permission -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AdminSignUpActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <!-- Define ReporterActivity -->
+        <activity
+            android:name=".ReporterActivity"
+            android:exported="true">
+        </activity>
+
+        <!-- Define SectionEditorActivity -->
+        <activity
+            android:name=".SectionEditorActivity"
+            android:exported="true">
+        </activity>
+
+        <!-- Define SubEditorActivity -->
+        <activity
+            android:name=".SubEditorActivity"
+            android:exported="true">
+        </activity>
+
+        <!-- Define AboutUsActivity -->
+        <activity
+            android:name=".AboutFragment"
+            android:exported="true">
+        </activity>
+
+        <!-- Define ChiefEditorActivity -->
+        <activity
+            android:name=".ChiefEditorActivity"
+            android:exported="true">
+        </activity>
+
+        <!-- Define new category activities -->
+        <activity
+            android:name=".LocalNewsActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".PoliticsActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".SportsActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".OtherActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".EventsActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".CrimeActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".WeatherActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".BusinessActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".EducationActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".SettingsFragment"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".RoleSelectionActivity"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+</manifest>

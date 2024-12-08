@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/city"
+            android:contentDescription="@string/app_name"
+            android:layout_marginBottom="16dp" />
+
+        <!-- App Name -->
+        <TextView
+            android:id="@+id/appNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/app_name"
+            android:textColor="@color/primary_text"
+            android:textSize="24sp" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CityNewsCaster is an Android application and the updated version of the CityNewsCaster web app. It is a city-based news providing app that covers all kinds of news."
+            android:textSize="16sp"
+            android:textColor="@color/secondary_text"
+            android:lineSpacingExtra="4dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Team Members Section -->
+        <TextView
+            android:id="@+id/teamHeaderTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/team"
+            android:textColor="@color/primary_text"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <!-- Team Member 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="8dp">
+
+                <ImageView
+                    android:id="@+id/teamMemberPhoto1"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:src="@drawable/person_placeholder"
+                    android:contentDescription="@string/team_member_photo"
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/photo_background" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/teamMemberName1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Syed Aneeb Naqvi"
+                        android:textSize="16sp"
+                        android:textColor="@color/primary_text"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:id="@+id/teamMemberRole1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="S-Editor"
+                        android:textSize="14sp"
+                        android:textColor="@color/secondary_text"
+                        android:fontFamily="sans-serif-light" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Team Member 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="8dp">
+
+                <ImageView
+                    android:id="@+id/teamMemberPhoto2"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:src="@drawable/person_placeholder"
+                    android:contentDescription="@string/team_member_photo"
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/photo_background" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/teamMemberName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr Syed Yaseer Arafat"
+                        android:textSize="16sp"
+                        android:textColor="@color/primary_text"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:id="@+id/teamMemberRole2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cheif Editor"
+                        android:textSize="14sp"
+                        android:textColor="@color/secondary_text"
+                        android:fontFamily="sans-serif-light" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Team Member 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="8dp">
+
+                <ImageView
+                    android:id="@+id/teamMemberPhoto3"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:src="@drawable/person_placeholder"
+                    android:contentDescription="@string/team_member_photo"
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/photo_background" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/teamMemberName3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shamsa Kanwal"
+                        android:textSize="16sp"
+                        android:textColor="@color/primary_text"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <TextView
+                        android:id="@+id/teamMemberRole3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="S-Editor"
+                        android:textSize="14sp"
+                        android:textColor="@color/secondary_text"
+                        android:fontFamily="sans-serif-light" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Contact Information Section -->
+        <TextView
+            android:id="@+id/contactHeaderTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="@string/contact_us"
+            android:textColor="@color/primary_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/contactEmailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_email"
+            android:textSize="16sp"
+            android:textColor="@color/link_color"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/contactPhoneTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_phone"
+            android:textSize="16sp"
+            android:textColor="@color/link_color"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Social Media Section -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageButton
+                android:id="@+id/facebookButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_facebook"
+                android:contentDescription="@string/facebook"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_marginEnd="8dp" />
+
+            <ImageButton
+                android:id="@+id/twitterButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_twitter"
+                android:contentDescription="@string/twitter"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_marginEnd="8dp" />
+
+            <ImageButton
+                android:id="@+id/linkedinButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_linkedin"
+                android:contentDescription="@string/linkedin"
+                android:background="?attr/selectableItemBackgroundBorderless" />
+        </LinearLayout>
+
+        <!-- Footer -->
+        <TextView
+            android:id="@+id/footerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/footer"
+            android:textSize="14sp"
+            android:textColor="@color/secondary_text"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center" />
+    </LinearLayout>
+</ScrollView>

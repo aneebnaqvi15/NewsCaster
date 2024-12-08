@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "987753314713",
+    "project_id": "newscaster-bd2a9",
+    "storage_bucket": "newscaster-bd2a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987753314713:android:5678d551420a4803f3fb08",
+        "android_client_info": {
+          "package_name": "com.example.newscaster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtBnOB5KA7eiUFeLjFbhBTELwDmxM085M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/search_bkg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/card_background"
+            android:elevation="4dp"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/alegreya_sc"
+                android:gravity="center"
+                android:text="Reporter Section"
+                android:textColor="@color/primary_text_color"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/welcome_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Hello"
+                android:textColor="@color/primary_text_color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You can Report news here."
+                android:textSize="16sp"
+                android:textColor="@color/secondary_text_color"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/news_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="News Title"
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/news_article"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Add News Article"
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <Spinner
+                android:id="@+id/news_category"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/spinner_background"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/news_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Location"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/baseline_add_location_24"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/news_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Date"
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                android:focusable="false"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/news_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Time"
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                android:focusable="false"
+                android:layout_marginBottom="24dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="12dp">
+
+                <Button
+                    android:id="@+id/select_image_file"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Choose file"
+                    android:background="@drawable/button_background"
+                    android:padding="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="@color/primary_text_color"/>
+
+                <Button
+                    android:id="@+id/upload"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Upload"
+                    android:background="@drawable/button_background"
+                    android:padding="12dp"
+                    android:layout_marginStart="8dp"
+                    android:textColor="@color/primary_text_color"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/selected_image_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No image selected"
+                android:textSize="16sp"
+                android:textColor="@color/secondary_text_color"
+                android:gravity="center"
+                android:layout_marginBottom="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="12dp">
+
+                <Button
+                    android:id="@+id/add_new"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Add New"
+                    android:background="@drawable/button_background"
+                    android:padding="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="@color/primary_text_color"/>
+
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Save"
+                    android:background="@drawable/button_background"
+                    android:padding="12dp"
+                    android:layout_marginStart="8dp"
+                    android:textColor="@color/primary_text_color"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/news_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="News Status: Pending"
+                android:textSize="16sp"
+                android:textColor="@color/secondary_text_color"
+                android:gravity="center"
+                android:layout_marginBottom="12dp"/>
+
+            <!-- Added button for proceeding to dashboard -->
+            <Button
+                android:id="@+id/proceed_to_dashboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Proceed to Dashboard"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                android:textColor="@color/primary_text_color"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

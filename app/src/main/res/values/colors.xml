@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="lavender">#8692f7</color>
+    <color name="grey">#ff424242</color>
+
+    <color name="primary">#6200EE</color>
+    <color name="gray_light">#D3D3D3</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorSecondary">#03DAC5</color>
+    <color name="background">#FFFFFF</color>
+    <color name="textColor">#000000</color>
+
+    <color name="background_color">#F5F5F5</color>
+    <color name="primary_text_color">#000000</color>
+    <color name="secondary_text_color">#757575</color>
+    <color name="button_color">#FFBB33</color>
+    <color name="button_pressed_color">#FFAA00</color>
+
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="link_color">#1E88E5</color>
+    <color name="ic_appearance_color">#8692f7</color>
+
+    <color name="ic_notification_color">#8692f7</color>
+
+
+    <color name="whatsapp_green">#25D366</color> <!-- WhatsApp Green Color -->
+    <color name="facebook_blue">#3b5998</color> <!-- Facebook Blue Color -->
+
+
+</resources>

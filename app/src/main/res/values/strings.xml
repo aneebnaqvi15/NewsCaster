@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CityNewsCaster</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="title_home">Home</string>
+    <string name="title_latest">Latest</string>
+    <string name="title_category">Category</string>
+    <string name="title_setting">Setting</string>
+    <string name="team">Our Team</string>
+    <string name="team_member_name">Aneeb Naqvi</string>
+    <string name="team_member_role">Chief Editor</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_email">Email: syedaneebajk00786@gmail.com</string>
+    <string name="contact_phone">Phone: +923556606136</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="footer">© 2024 City News Caster. All rights reserved.</string>
+    <string name="team_member_photo">Team Member Photo</string>
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="notification">Notification</string>
+    <string name="appearance">Appearance</string>
+    <string name="feedback">Feedback</string>
+    <string name="share_app">Share App</string>
+    <string name="Logout">Logout</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="search_categories">Search categories</string>
+    <string name="notification_icon">Notification Icon</string>
+    <string name="appearance_icon">Appearance Icon</string>
+    <!-- Feedback -->
+    <string name="feedback_email_subject">Feedback</string>
+    <string name="feedback_email">feedback@example.com</string>
+    <!-- Share -->
+    <string name="share_app_text">Check out this amazing app: [link to app]</string>
+    <string name="share_app_title">Share App</string>
+    <!-- Add the news categories -->
+    <string-array name="news_categories">
+        <item>Please select a category</item>
+        <item>Politics</item>
+        <item>Sports</item>
+        <item>Events</item>
+        <item>Weather</item>
+        <item>Business</item>
+        <item>Local News</item>
+        <item>Education</item>
+        <item>Crime</item>
+        <item>Other</item>
+    </string-array>
+</resources>
